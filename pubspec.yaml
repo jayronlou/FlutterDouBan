@@ -20,21 +20,19 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
 
-  flutter_cache_manager: ^0.2.0+1
+  flutter_cache_manager: ^0.3.2
 
-  palette_generator: ^0.1.0
+  palette_generator: ^0.1.1
 
-  flutter_webview_plugin: ^0.3.0+2
+  flutter_webview_plugin: ^0.3.5
 
-  webview_flutter: ^0.3.3+1
+  webview_flutter: ^0.3.6
 
   video_player: ^0.10.0+2
   # 用来模拟网络返回的数据，这些数据是真实的，这里模拟
   dio: ^1.0.13
 
   sqflite: ^1.1.0
-
-  fluttertoast: ^3.0.4
 
 dev_dependencies:
   flutter_test:
@@ -52,8 +50,8 @@ flutter:
   # the material Icons class.
   uses-material-design: true
   assets:
-    - assets/images/
-    - mock/
+  - assets/images/
+  - mock/
 
   # To add assets to your application, add an assets section, like this:
   # assets:
